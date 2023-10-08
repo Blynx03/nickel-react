@@ -153,7 +153,7 @@ const SignIn = ({
         <div className="third-party-login-container">
           <div className="google-container other-login-container">
             <img
-              src="./images/google-icon.png"
+              src="images/google-icon.png"
               alt="Google Logo"
               className="third-party-icon"
             />{" "}
@@ -161,7 +161,7 @@ const SignIn = ({
           </div>
           <div className="facebook-container other-login-container">
             <img
-              src="./images/fb-icon.png"
+              src="../assets/images/fb-icon.png"
               alt="Facebook Logo"
               className="third-party-icon"
             />
@@ -284,7 +284,7 @@ const SignIn = ({
         <div className="third-party-login-container third-party-login-container2">
           <div className="google-container other-login-container">
             <img
-              src="./images/google-icon.png"
+              src="images/google-icon.png"
               alt="Google Logo"
               className="third-party-icon"
             />{" "}
@@ -292,7 +292,7 @@ const SignIn = ({
           </div>
           <div className="facebook-container other-login-container">
             <img
-              src="./images/fb-icon.png"
+              src="/images/fb-icon.png"
               alt="Facebook Logo"
               className="third-party-icon"
             />

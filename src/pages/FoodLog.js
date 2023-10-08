@@ -38,6 +38,7 @@ const FoodLog = ({
           <div className="foodlog-header">Here is your Food Log:</div>
 
           {userData.log.map(({ date, items }, index) => {
+            totalpts = 0;
             return (
               <div className="per-log-container" key={uuidv4()}>
                 <div className="date-time-container" key={uuidv4()}>
