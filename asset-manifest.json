@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nickel-react/static/css/main.8448d1bd.css",
+    "main.css": "/nickel-react/static/css/main.73439625.css",
     "main.js": "/nickel-react/static/js/main.3f742385.js",
     "index.html": "/nickel-react/index.html",
-    "main.8448d1bd.css.map": "/nickel-react/static/css/main.8448d1bd.css.map",
+    "main.73439625.css.map": "/nickel-react/static/css/main.73439625.css.map",
     "main.3f742385.js.map": "/nickel-react/static/js/main.3f742385.js.map"
   },
   "entrypoints": [
-    "static/css/main.8448d1bd.css",
+    "static/css/main.73439625.css",
     "static/js/main.3f742385.js"
   ]
 }
