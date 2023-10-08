@@ -1,0 +1,28 @@
+.point-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--rubik);
+}
+
+.total-point-label {
+    font-size: 3vw;
+    padding-right: 2%;
+}
+
+.total-point {
+    width: 8vw;
+    height: 8vw;
+    background: #cfe1b9;
+    border: 1vw solid green;
+    border-radius: 100%;
+    display: flex;
+    font-size: 4.5vw;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    color: tomato;
+    box-shadow: 0 0 10px 2px gray;
+}

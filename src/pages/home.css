@@ -1,0 +1,15 @@
+.home-content {
+    font-family: var(--roboto);
+    padding: 2% 5%;
+    box-shadow: 0 0 10px 5px lightgray;
+    width: 80vw;
+    margin-top: 4%;
+    background: #cfe1b9;
+    overflow-y: scroll;
+}
+
+.home-para {
+    text-indent: 4%;
+    padding: 3% 0 0;
+    line-height: 1.8rem;
+}

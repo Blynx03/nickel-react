@@ -1,0 +1,43 @@
+
+.nav-container {
+    position: absolute;
+    right: 1%;
+    bottom: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 15%;
+    border-radius: 20px;
+    font-size: 1.4vw;
+    border: none;
+    background: transparent;
+  }
+  
+  .nav-btn {
+    font-family: var(--rubik);
+    display: flex;
+    align-items: center;
+    font-size: 0.75vw;
+    letter-spacing: 0.75px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-btn:active {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  
+  .home-btn {
+    font-weight: 600;
+  }
+  
+  .login-btn {
+    color: tomato;
+  }
+  
+
+  
+  
+  

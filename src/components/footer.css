@@ -1,0 +1,7 @@
+.footer {
+    font-family: var(--rubik);
+    letter-spacing: 0.25px;
+    position: absolute;
+    bottom: 2%;
+    right: 42%;
+  }

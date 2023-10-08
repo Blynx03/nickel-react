@@ -1,0 +1,165 @@
+
+.addlog-container {
+    position: fixed;
+    top: 22%;
+    width: 50vw;
+    font-family: var(--roboto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #d9e5ce;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 gray;
+}
+
+.addlog-title {
+    width: 100%;
+    padding: 0.75rem;
+    background: #f5f1ed;
+    font-size: 1.6em;
+    color: steelblue;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.addlog-category-container {
+    width: 100%;
+    display: flex;
+    padding: 0.5rem;
+    color: tomato;
+    font-weight: bold;
+    justify-content: space-evenly;
+    gap: 43%;
+}
+
+.addlog-category-point {
+    /* margin-left: 25%; */
+}
+
+.addlog-content-container {
+    font-size: 0.9rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.addlog-item-container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 3px 18px;
+}
+
+.addlog-item-container:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.addlog-item-container:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+.addlog-item-container:nth-child(odd) {
+    background: #f5f1ed;
+}
+
+.addlog-item-container:nth-child(even) {
+    background: #e9e4dd;
+}
+
+.addlog-item-container:hover {
+    background: yellow;
+    font-weight: bold;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.addlog-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.addlog-point {
+    position: absolute;
+    right: 13%;
+}
+
+.date-time-container {
+    width: 70%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: steelblue;
+}
+
+.date-container {
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0px gray;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-time {
+    width: 45%;
+    font-size: 1rem;
+    text-align: center;
+}
+.date {
+    width: 100%;
+    padding: 0.5rem;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.date:hover {
+    cursor: pointer;
+}
+
+.addlog-btn-container {
+    background: #f5f1ed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 30px;
+    gap: 5%;
+    border-radius: 0 0 10px 10px;
+}
+
+.addlog-btn-container > button {
+    width: 20%;
+    height: 34px;
+    border-radius: 17px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 0 0 5px 0px gray;
+}
+
+.addlog-btn-container > button:hover {
+    scale: 1.025;
+    cursor: pointer;
+}
+
+.addlog-btn-cancel {
+    background-color: tomato;
+}
+
+.addlog-btn-cancel:active, .addlog-btn-add:active {
+    scale: 0.95;
+}
+
+.addlog-btn-add {
+    background:mediumseagreen
+}
