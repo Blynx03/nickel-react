@@ -75,7 +75,7 @@ function App() {
       <div className="main">
         <Header signedIn={signedIn} setSignedIn={setSignedIn} />
         <Routes>
-          <Route path="/*" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route
             path="/pages/search"
             element={
