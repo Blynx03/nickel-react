@@ -58,10 +58,12 @@ function App() {
   ]);
 
   // user Id came from sign in page
-  function handleAddToLog(e) {
+  function handleAddToLog(foodChoices) {
+    console.log(foodChoices);
     mainLog.map((info) => {
       if (signedIn) {
-        info.log = [...info.log, { date: logDate, items: chosenFood }];
+        info.log = [...info.log, { date: logDate, items: foodChoices }];
+        setUserData(info);
         navigate("../pages/foodlog");
       } else {
         navigate("../pages/signin");

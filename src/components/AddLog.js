@@ -96,7 +96,7 @@ const AddLog = ({
           type="button"
           autoFocus
           className="addlog-btn-add"
-          onClick={handleAddToLog}
+          onClick={handleAddToLog(chosenFood)}
         >
           Log
         </button>
